@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LaughShare</string>
+    <string name="share">share</string>
+    <string name="next">next</string>
+    <string name="warningDialogHeading"><b>YOU MAY COME ACROSS SOME OFFENSIVE MEMES !!\n</b>Memes shown in this App are from Reddit,Developer has nothing to do with the memes displayed.</string>
+    <string name="laughshare"><b>LAUGH</b><i>Share</i></string>
+    <string name="meme_sharing_app"><i>Meme Sharing app</i></string>
+</resources>
