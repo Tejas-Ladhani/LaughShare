@@ -14,6 +14,8 @@ public class MySingleton {
     private MySingleton(Context context) {
         ctx = context;
         requestQueue = getRequestQueue();
+        //requestQueue.getCache().clear();
+
     }
 
     public static synchronized MySingleton getInstance(Context context) {
@@ -31,6 +33,7 @@ public class MySingleton {
         }
         return requestQueue;
     }
+
 
     public <T> void addToRequestQueue(Request<T> req) {
         getRequestQueue().add(req);

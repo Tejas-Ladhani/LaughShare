@@ -14,7 +14,7 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:paddingBottom="8dp"
-        app:layout_constraintBottom_toTopOf="@id/NextBtn"
+        app:layout_constraintBottom_toTopOf="@id/ShareBtn"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -35,7 +35,7 @@
 
     <Button
         android:id="@+id/ShareBtn"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/colorShareButton"
         android:onClick="ShareMeme"
@@ -48,7 +48,7 @@
         app:layout_constraintRight_toRightOf="@id/guideline" />
 
 
-    <Button
+    <!--Button
         android:id="@+id/NextBtn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -60,7 +60,7 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="@id/guideline"
-        app:layout_constraintRight_toRightOf="parent" />
+        app:layout_constraintRight_toRightOf="parent" /-->
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
