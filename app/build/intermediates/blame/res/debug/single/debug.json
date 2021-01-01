@@ -24,12 +24,12 @@
         "source": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_owllaugh.jpg.flat",
         "source": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\src\\main\\res\\drawable\\owllaugh.jpg"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",

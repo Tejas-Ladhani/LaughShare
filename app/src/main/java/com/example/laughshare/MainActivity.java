@@ -1,13 +1,14 @@
 package com.example.laughshare;
 
-import android.annotation.SuppressLint;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.view.GestureDetector;
 import android.view.Gravity;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
@@ -16,6 +17,7 @@ import android.widget.Toast;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.view.GestureDetectorCompat;
 
 import com.android.volley.AuthFailureError;
 import com.android.volley.NetworkError;
@@ -42,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
     //To show the user that image is loading | Glide will take time to load & download the image
 
     String imageUrl;
+    private GestureDetectorCompat mGestureDetectorCompat ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,6 +53,29 @@ public class MainActivity extends AppCompatActivity {
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         imageView = findViewById(R.id.imageView);
         progressBar = findViewById(R.id.progressBar);
+        IsFirstRunAndload();
+        mGestureDetectorCompat=new GestureDetectorCompat(this,new GestureDetector.SimpleOnGestureListener(){
+            @Override
+            public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX, float velocityY) {
+                if((e1.getX()>e2.getX()))
+                {
+                 //   Toast.makeText(MainActivity.this, "L2R", Toast.LENGTH_SHORT).show();
+                loadMeme();
+                }
+                return super.onFling(e1, e2, velocityX, velocityY);
+            }
+        });
+
+
+    }
+
+        @Override
+        public boolean onTouchEvent(MotionEvent event) {
+            mGestureDetectorCompat.onTouchEvent(event);
+            return super.onTouchEvent(event);
+        }
+
+    public void IsFirstRunAndload(){
         boolean firstrun = getSharedPreferences("PREFERENCE", MODE_PRIVATE).getBoolean("firstrun", true);
         if (firstrun) {
             //... Display the dialog message here ...
@@ -79,10 +105,13 @@ public class MainActivity extends AppCompatActivity {
 
             alert11.show();
 
+        }else {
+            loadMeme();
         }
 
 
     }
+
 
     public void ShareMeme(View view) {
         Intent intent = new Intent(Intent.ACTION_SEND);
@@ -91,9 +120,6 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void NextMeme(View view) {
-        loadMeme();
-    }
 
 
     private void loadMeme() {
@@ -144,6 +170,7 @@ public class MainActivity extends AppCompatActivity {
                         }
                         Toast myToast = Toast.makeText(MainActivity.this, message, Toast.LENGTH_SHORT);
                         myToast.setGravity(Gravity.CENTER,0,0); //<-- set gravity here
+
                         myToast.getView().setBackgroundColor(Color.parseColor("#F35399"));
                         myToast.show();
                     }
@@ -151,5 +178,6 @@ public class MainActivity extends AppCompatActivity {
 
         // Add the request to the RequestQueue.
         MySingleton.getInstance(this).addToRequestQueue(jsonObjectRequest);
+
     }
 }
