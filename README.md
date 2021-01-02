@@ -42,3 +42,11 @@
 ## Demo 
 <p align="center"><img height="410" src="https://github.com/Tejas-Ladhani/README_IMGS/blob/main/LaughShareGIF.gif"></p>
 
+## Why to use App ? <img height="40" src="https://github.com/Tejas-Ladhani/README_IMGS/blob/main/confusedGIF.gif">   
+<p>
+  <ul>
+    <li>What I feel is, the recommendation system on different social media apps is making us biased ,as it shows only what we like or we Like what we see. It is dividing our society in different groups, which is probably a not good thing for all of us.</li>
+    <li>Many of us are using social media apps just for memes , so why to not create one, without authentication process. </li>
+  </ul>
+</p>
+
