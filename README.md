@@ -7,8 +7,6 @@
 ![Stars](https://img.shields.io/github/stars/Tejas-Ladhani/LaughShare)
 ![License](https://img.shields.io/github/license/Tejas-Ladhani/LaughShare)
 </p>
-
-<br>
 <hr>
 
 **LaughShare** : A meme Sharing android application by which user can see and share different memes.
