@@ -31,10 +31,10 @@
 ## Concepts & components 🧱🧱:
 <br>
 
-* Volley API
-* Glide Library
+* <a href="https://developer.android.com/training/volley">Volley API</a> 📥📤
+* <a href=" https://github.com/bumptech/glide ">Glide Library</a>🖼
 * Swipe Gestures
-* Custom Dialogs
+* <a href="https://github.com/Tejas-Ladhani/LaughShare/blob/FInalMaster/Custom_Dialogs.MD">Custom Dialogs</a>
 * Splash Screen
 
 ## Demo 
