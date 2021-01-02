@@ -35,7 +35,7 @@
 
 * <a href="https://developer.android.com/training/volley">Volley API</a> 📥📤
 * <a href="https://github.com/bumptech/glide">Glide Library</a> 🖼
-* Swipe Gestures
+* <a href="https://github.com/Tejas-Ladhani/LaughShare/blob/FInalMaster/Gesture_Listener.MD">Swipe Gestures</a>  
 * <a href="https://github.com/Tejas-Ladhani/LaughShare/blob/FInalMaster/Custom_Dialogs.MD">Custom Dialogs</a>
 * Splash Screen
 
