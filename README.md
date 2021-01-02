@@ -38,4 +38,5 @@
 * Splash Screen
 
 ## Demo 
-<img height="80" src="">
+<p align="center"><img height="410" src="https://github.com/Tejas-Ladhani/README_IMGS/blob/main/LaughShareGIF.gif"></p>
+
