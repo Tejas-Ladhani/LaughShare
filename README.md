@@ -39,8 +39,7 @@
 * <a href="https://github.com/Tejas-Ladhani/LaughShare/blob/FInalMaster/Custom_Dialogs.MD">Custom Dialogs</a>
 * Splash Screen
 
-## Meme API used:
-https://github.com/D3vd/Meme_Api
+#### Meme API used: https://github.com/D3vd/Meme_Api
 
 ## Demo 
 <p align="center"><img height="410" src="https://github.com/Tejas-Ladhani/README_IMGS/blob/main/LaughShareGIF.gif"></p>
