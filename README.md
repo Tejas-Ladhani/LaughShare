@@ -10,6 +10,8 @@
 <hr>
 
 **LaughShare** : A meme Sharing android application by which user can see and share different memes.
+<br>
+**LOGO** :
 <p align="center"><img src="app/src/main/res/drawable/laughing.png" width=155px height=155px></p>
 <br/>
 <h3> Features :</h3>
