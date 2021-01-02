@@ -3,25 +3,21 @@ package com.example.laughshare;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
-import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.GestureDetector;
-import android.view.Gravity;
+import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.Toast;
-
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.view.GestureDetectorCompat;
-
 import com.android.volley.AuthFailureError;
 import com.android.volley.NetworkError;
-import com.android.volley.NoConnectionError;
 import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.TimeoutError;
@@ -44,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
     //To show the user that image is loading | Glide will take time to load & download the image
 
     String imageUrl;
-    private GestureDetectorCompat mGestureDetectorCompat ;
+    private GestureDetectorCompat mGestureDetectorCompat;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,13 +50,11 @@ public class MainActivity extends AppCompatActivity {
         imageView = findViewById(R.id.imageView);
         progressBar = findViewById(R.id.progressBar);
         IsFirstRunAndload();
-        mGestureDetectorCompat=new GestureDetectorCompat(this,new GestureDetector.SimpleOnGestureListener(){
+        mGestureDetectorCompat = new GestureDetectorCompat(this, new GestureDetector.SimpleOnGestureListener() {
             @Override
             public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX, float velocityY) {
-                if((e1.getX()>e2.getX()))
-                {
-                 //   Toast.makeText(MainActivity.this, "L2R", Toast.LENGTH_SHORT).show();
-                loadMeme();
+                if ((e1.getX() > e2.getX())) { //load meme when swiped R2L
+                    loadMeme();
                 }
                 return super.onFling(e1, e2, velocityX, velocityY);
             }
@@ -69,13 +63,13 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-        @Override
-        public boolean onTouchEvent(MotionEvent event) {
-            mGestureDetectorCompat.onTouchEvent(event);
-            return super.onTouchEvent(event);
-        }
+    @Override
+    public boolean onTouchEvent(MotionEvent event) {
+        mGestureDetectorCompat.onTouchEvent(event);
+        return super.onTouchEvent(event);
+    }
 
-    public void IsFirstRunAndload(){
+    public void IsFirstRunAndload() {
         boolean firstrun = getSharedPreferences("PREFERENCE", MODE_PRIVATE).getBoolean("firstrun", true);
         if (firstrun) {
             //... Display the dialog message here ...
@@ -93,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
                             getSharedPreferences("PREFERENCE", MODE_PRIVATE)
                                     .edit()
                                     .putBoolean("firstrun", false)
-                                    .commit();
+                                    .apply();
 
                             dialog.cancel();
                         }
@@ -105,7 +99,7 @@ public class MainActivity extends AppCompatActivity {
 
             alert11.show();
 
-        }else {
+        } else {
             loadMeme();
         }
 
@@ -121,13 +115,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-
     private void loadMeme() {
 
 
         progressBar.setVisibility(View.VISIBLE);
 
-//        RequestQueue queue = Volley.newRequestQueue(this);
         String url = "https://meme-api.herokuapp.com/gimme";
 
         JsonObjectRequest jsonObjectRequest = new JsonObjectRequest
@@ -161,23 +153,34 @@ public class MainActivity extends AppCompatActivity {
 
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        String message = null; // error message, show it in toast or dialog, whatever you want
                         progressBar.setVisibility(View.GONE);
-                        if (error instanceof NetworkError || error instanceof AuthFailureError || error instanceof NoConnectionError || error instanceof TimeoutError) {
-                            message = "Couldn't connect to Internet";
-                        } else {
-                            message = "Please try again";
-                        }
-                        Toast myToast = Toast.makeText(MainActivity.this, message, Toast.LENGTH_SHORT);
-                        myToast.setGravity(Gravity.CENTER,0,0); //<-- set gravity here
 
-                        myToast.getView().setBackgroundColor(Color.parseColor("#F35399"));
-                        myToast.show();
+                        if (error instanceof NetworkError || error instanceof AuthFailureError || error instanceof TimeoutError) {
+                            showDialog();
+                        } else {
+                            Toast.makeText(MainActivity.this, "Please try again", Toast.LENGTH_SHORT).show();
+                        }
+
                     }
                 });
 
         // Add the request to the RequestQueue.
         MySingleton.getInstance(this).addToRequestQueue(jsonObjectRequest);
 
+    }
+
+    private void showDialog() {
+        //crete &Show  Alert Dialog
+        LayoutInflater inflater = getLayoutInflater();
+        AlertDialog.Builder builder =
+                new AlertDialog.Builder(MainActivity.this).setView(inflater.inflate(R.layout.dialog_view, null)).
+                        setPositiveButton("RETRY", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                dialog.dismiss();
+                                loadMeme();
+                            }
+                        });
+        builder.create().show();
     }
 }

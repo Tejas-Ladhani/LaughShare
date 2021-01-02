@@ -23,9 +23,6 @@ anim btn_radio_to_off_mtrl_ring_outer_path_animation
 anim btn_radio_to_on_mtrl_dot_group_animation
 anim btn_radio_to_on_mtrl_ring_outer_animation
 anim btn_radio_to_on_mtrl_ring_outer_path_animation
-attr SpinKitViewStyle
-attr SpinKit_Color
-attr SpinKit_Style
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -801,6 +798,8 @@ drawable btn_radio_on_to_off_mtrl_animation
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable laughing
+drawable my_button
+drawable no_connection
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -814,34 +813,20 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable owllaugh
+drawable share_icon
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
 id CTRL
-id ChasingDots
-id Circle
-id CubeGrid
-id DoubleBounce
 id FUNCTION
-id FadingCircle
-id FoldingCube
 id META
-id MultiplePulse
-id MultiplePulseRing
 id NO_DEBUG
-id Pulse
-id PulseRing
-id RotatingCircle
-id RotatingPlane
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
 id ShareBtn
-id ThreeBounce
-id WanderingCubes
-id Wave
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -963,6 +948,8 @@ id group_divider
 id grouping
 id groups
 id guideline
+id guideline1
+id guideline2
 id home
 id homeAsUp
 id honorRequest
@@ -1130,6 +1117,7 @@ layout abc_tooltip
 layout activity_main
 layout activity_splash
 layout custom_dialog
+layout dialog_view
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big
@@ -1173,6 +1161,8 @@ string app_name
 string laughshare
 string meme_sharing_app
 string next
+string no_connection_icon
+string no_internet
 string search_menu_title
 string share
 string status_bar_notification_info_overflow
@@ -1366,54 +1356,6 @@ style RtlOverlay_Widget_AppCompat_Search_DropDown_Text
 style RtlOverlay_Widget_AppCompat_SearchView_MagIcon
 style RtlUnderlay_Widget_AppCompat_ActionButton
 style RtlUnderlay_Widget_AppCompat_ActionButton_Overflow
-style SpinKitView
-style SpinKitView_ChasingDots
-style SpinKitView_Circle
-style SpinKitView_CubeGrid
-style SpinKitView_DoubleBounce
-style SpinKitView_FadingCircle
-style SpinKitView_FoldingCube
-style SpinKitView_Large
-style SpinKitView_Large_ChasingDots
-style SpinKitView_Large_Circle
-style SpinKitView_Large_CubeGrid
-style SpinKitView_Large_DoubleBounce
-style SpinKitView_Large_FadingCircle
-style SpinKitView_Large_FoldingCube
-style SpinKitView_Large_MultiplePulse
-style SpinKitView_Large_MultiplePulseRing
-style SpinKitView_Large_Pulse
-style SpinKitView_Large_PulseRing
-style SpinKitView_Large_RotatingCircle
-style SpinKitView_Large_RotatingPlane
-style SpinKitView_Large_ThreeBounce
-style SpinKitView_Large_WanderingCubes
-style SpinKitView_Large_Wave
-style SpinKitView_MultiplePulse
-style SpinKitView_MultiplePulseRing
-style SpinKitView_Pulse
-style SpinKitView_PulseRing
-style SpinKitView_RotatingCircle
-style SpinKitView_RotatingPlane
-style SpinKitView_Small
-style SpinKitView_Small_ChasingDots
-style SpinKitView_Small_Circle
-style SpinKitView_Small_CubeGrid
-style SpinKitView_Small_DoubleBounce
-style SpinKitView_Small_FadingCircle
-style SpinKitView_Small_FoldingCube
-style SpinKitView_Small_MultiplePulse
-style SpinKitView_Small_MultiplePulseRing
-style SpinKitView_Small_Pulse
-style SpinKitView_Small_PulseRing
-style SpinKitView_Small_RotatingCircle
-style SpinKitView_Small_RotatingPlane
-style SpinKitView_Small_ThreeBounce
-style SpinKitView_Small_WanderingCubes
-style SpinKitView_Small_Wave
-style SpinKitView_ThreeBounce
-style SpinKitView_WanderingCubes
-style SpinKitView_Wave
 style TextAppearance_AppCompat
 style TextAppearance_AppCompat_Body1
 style TextAppearance_AppCompat_Body2
@@ -1633,7 +1575,6 @@ styleable PopupWindowBackgroundState state_above_anchor
 styleable PropertySet android_visibility android_alpha layout_constraintTag motionProgress visibilityMode
 styleable RecycleListView paddingBottomNoButtons paddingTopNoTitle
 styleable SearchView android_focusable android_maxWidth android_inputType android_imeOptions closeIcon commitIcon defaultQueryHint goIcon iconifiedByDefault layout queryBackground queryHint searchHintIcon searchIcon submitBackground suggestionRowLayout voiceIcon
-styleable SpinKitView SpinKit_Color SpinKit_Style
 styleable Spinner android_entries android_popupBackground android_prompt android_dropDownWidth popupTheme
 styleable State android_id constraints
 styleable StateListDrawable android_dither android_visible android_variablePadding android_constantSize android_enterFadeDuration android_exitFadeDuration

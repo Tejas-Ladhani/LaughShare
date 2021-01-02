@@ -8,7 +8,6 @@ MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\DELL\.gr
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\bf96d2b5a86ecd602a621e7e96856420\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.volley:volley:1.1.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\b9ce46b28b9b511e29689ad1504d81fa\jetified-volley-1.1.1\AndroidManifest.xml:2:1-11:12
 MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\dc9123763d17d918a4b107f1f30e6b9e\jetified-glide-4.11.0\AndroidManifest.xml:2:1-12:12
-MERGED from [com.github.ybq:Android-SpinKit:1.4.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\de03562a711016b79442633f38a4fa51\jetified-Android-SpinKit-1.4.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\7c0677be8011741026309ef690a9f4db\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\12c076570219bdc2a11e9d0df335391a\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\ee9b51f71825564f346013ea1d4d0318\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
@@ -76,7 +75,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\DE
 	android:theme
 		ADDED from C:\Users\DELL\AndroidStudioProjects\LaughShare\app\src\main\AndroidManifest.xml:11:9-40
 activity#com.example.laughshare.MainActivity
-ADDED from C:\Users\DELL\AndroidStudioProjects\LaughShare\app\src\main\AndroidManifest.xml:12:9-71
+ADDED from C:\Users\DELL\AndroidStudioProjects\LaughShare\app\src\main\AndroidManifest.xml:12:9-72
 	android:name
 		ADDED from C:\Users\DELL\AndroidStudioProjects\LaughShare\app\src\main\AndroidManifest.xml:12:19-69
 activity#com.example.laughshare.SplashActivity
@@ -94,7 +93,7 @@ ADDED from C:\Users\DELL\AndroidStudioProjects\LaughShare\app\src\main\AndroidMa
 	android:name
 		ADDED from C:\Users\DELL\AndroidStudioProjects\LaughShare\app\src\main\AndroidManifest.xml:17:27-74
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\DELL\AndroidStudioProjects\LaughShare\app\src\main\AndroidManifest.xml:24:5-66
+ADDED from C:\Users\DELL\AndroidStudioProjects\LaughShare\app\src\main\AndroidManifest.xml:24:5-67
 	android:name
 		ADDED from C:\Users\DELL\AndroidStudioProjects\LaughShare\app\src\main\AndroidManifest.xml:24:22-64
 uses-sdk
@@ -109,8 +108,6 @@ MERGED from [com.android.volley:volley:1.1.1] C:\Users\DELL\.gradle\caches\trans
 MERGED from [com.android.volley:volley:1.1.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\b9ce46b28b9b511e29689ad1504d81fa\jetified-volley-1.1.1\AndroidManifest.xml:7:5-43
 MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\dc9123763d17d918a4b107f1f30e6b9e\jetified-glide-4.11.0\AndroidManifest.xml:6:5-8:41
 MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\dc9123763d17d918a4b107f1f30e6b9e\jetified-glide-4.11.0\AndroidManifest.xml:6:5-8:41
-MERGED from [com.github.ybq:Android-SpinKit:1.4.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\de03562a711016b79442633f38a4fa51\jetified-Android-SpinKit-1.4.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.ybq:Android-SpinKit:1.4.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\de03562a711016b79442633f38a4fa51\jetified-Android-SpinKit-1.4.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\7c0677be8011741026309ef690a9f4db\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\7c0677be8011741026309ef690a9f4db\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\12c076570219bdc2a11e9d0df335391a\fragment-1.1.0\AndroidManifest.xml:20:5-22:41

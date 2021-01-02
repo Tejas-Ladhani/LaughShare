@@ -11,7 +11,7 @@
 9-->C:\Users\DELL\AndroidStudioProjects\LaughShare\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\DELL\AndroidStudioProjects\LaughShare\app\src\main\AndroidManifest.xml:24:5-66
+11-->C:\Users\DELL\AndroidStudioProjects\LaughShare\app\src\main\AndroidManifest.xml:24:5-67
 11-->C:\Users\DELL\AndroidStudioProjects\LaughShare\app\src\main\AndroidManifest.xml:24:22-64
 12
 13    <application
@@ -33,7 +33,7 @@
 22        android:theme="@style/AppTheme" >
 22-->C:\Users\DELL\AndroidStudioProjects\LaughShare\app\src\main\AndroidManifest.xml:11:9-40
 23        <activity android:name="com.example.laughshare.MainActivity" />
-23-->C:\Users\DELL\AndroidStudioProjects\LaughShare\app\src\main\AndroidManifest.xml:12:9-71
+23-->C:\Users\DELL\AndroidStudioProjects\LaughShare\app\src\main\AndroidManifest.xml:12:9-72
 23-->C:\Users\DELL\AndroidStudioProjects\LaughShare\app\src\main\AndroidManifest.xml:12:19-69
 24        <activity android:name="com.example.laughshare.SplashActivity" >
 24-->C:\Users\DELL\AndroidStudioProjects\LaughShare\app\src\main\AndroidManifest.xml:14:9-19:20

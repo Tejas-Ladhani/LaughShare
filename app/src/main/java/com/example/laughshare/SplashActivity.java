@@ -22,7 +22,7 @@ public class SplashActivity extends AppCompatActivity {
                 startActivity(mainActivity);
                 finish();
             }
-        },SPLASH_SCREEN_TIMEOUT);
+        }, SPLASH_SCREEN_TIMEOUT);
 
     }
 }

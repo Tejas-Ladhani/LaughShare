@@ -1,5 +1,13 @@
 [
     {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_no_connection.png.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\no_connection.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_share_icon.png.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\src\\main\\res\\drawable-xxhdpi\\share_icon.png"
+    },
+    {
         "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
         "source": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
     },
@@ -16,8 +24,24 @@
         "source": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_share_icon.png.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\src\\main\\res\\drawable-mdpi\\share_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_no_connection.png.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\no_connection.png"
+    },
+    {
         "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_my_button.xml.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\src\\main\\res\\drawable\\my_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_no_connection.png.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\src\\main\\res\\drawable-xhdpi\\no_connection.png"
     },
     {
         "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
@@ -32,6 +56,14 @@
         "source": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_no_connection.xml.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\no_connection.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_share_icon.xml.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\share_icon.xml"
+    },
+    {
         "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
@@ -40,8 +72,20 @@
         "source": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\src\\main\\res\\drawable\\back.xml"
     },
     {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_share_icon.png.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\src\\main\\res\\drawable-xhdpi\\share_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_share_icon.png.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\share_icon.png"
+    },
+    {
         "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_no_connection.png.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\src\\main\\res\\drawable-mdpi\\no_connection.png"
     },
     {
         "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
@@ -56,8 +100,16 @@
         "source": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_share_icon.png.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\src\\main\\res\\drawable-hdpi\\share_icon.png"
+    },
+    {
         "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_no_connection.png.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\src\\main\\res\\drawable-hdpi\\no_connection.png"
     },
     {
         "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
@@ -96,7 +148,19 @@
         "source": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_share_icon.png.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\share_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_no_connection.png.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\src\\main\\res\\drawable-xxhdpi\\no_connection.png"
+    },
+    {
         "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_view.xml.flat",
+        "source": "C:\\Users\\DELL\\AndroidStudioProjects\\LaughShare\\app\\src\\main\\res\\layout\\dialog_view.xml"
     }
 ]

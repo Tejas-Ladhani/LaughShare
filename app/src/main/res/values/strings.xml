@@ -5,4 +5,6 @@
     <string name="warningDialogHeading"><b>YOU MAY COME ACROSS SOME OFFENSIVE MEMES !!\n</b>Memes shown in this App are from Reddit,Developer has nothing to do with the memes displayed.</string>
     <string name="laughshare"><b>LAUGH</b><i>Share</i></string>
     <string name="meme_sharing_app"><i>Meme Sharing app</i></string>
+    <string name="no_internet">NO INTERNET !</string>
+    <string name="no_connection_icon">No connection icon</string>
 </resources>
