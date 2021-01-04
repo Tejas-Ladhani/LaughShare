@@ -53,5 +53,5 @@
 </p>
 
 #### Download APK 📥:
-<a href="https://bit.ly/354cvmK"> <img height="70" width="75" src="https://github.com/Tejas-Ladhani/README_IMGS/blob/main/downloadICON.png" />
+<a href=" https://bit.ly/3rJWLie"> <img height="70" width="75" src="https://github.com/Tejas-Ladhani/README_IMGS/blob/main/downloadICON.png" />
 </a> 
